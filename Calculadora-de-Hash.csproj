@@ -53,6 +53,9 @@
     <ApplicationIcon>ico-hash.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="sha1lib">
+      <HintPath>VC12\sha1lib\bin\Debug\sha1lib.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
