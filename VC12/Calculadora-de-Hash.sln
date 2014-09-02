@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculadora-de-Hash", "..\Calculadora-de-Hash.csproj", "{A4BF3A75-D3AA-4E9A-BFC8-98D2B9AE24F7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{822149C1-6D7C-473F-817D-D3CBDDDB551E} = {822149C1-6D7C-473F-817D-D3CBDDDB551E}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sha1lib", "..\sha1lib\sha1lib.csproj", "{822149C1-6D7C-473F-817D-D3CBDDDB551E}"
 EndProject
